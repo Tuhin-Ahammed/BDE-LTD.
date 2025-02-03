@@ -1,0 +1,121 @@
+.body {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.header-container {
+  background-image: url(bannre_1.jpg);
+  width: 100%;
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-containt {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.header-logo {
+  align-items: center;
+  padding-left: 100px;
+
+}
+
+.header-menu ul {
+  color: white;
+  display: flex;
+  font-size: larger;
+  list-style: none;
+  padding-left: 450px;
+
+}
+
+.header-menu ul li {
+  padding: 20px;
+  font-size: x-large;
+  cursor: pointer;
+  align-items: center;
+
+}
+
+.containt-heading {
+  color: rgb(249, 245, 245);
+  font-size: 30px;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+
+.containt-paragrap {
+  color: rgb(240, 236, 237);
+  font-size: 30px;
+  padding-left: 5%;
+}
+
+.ourservices {
+  padding-left: 5%;
+}
+
+.ourservices button {
+  background-color: rgb(228, 17, 77);
+  color: white;
+  font-size: x-large;
+  font-style: inherit;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.about-container {
+  padding-top: 100px;
+}
+
+.aboutsection-left {
+  position: relative;
+  padding-left: 90px;
+
+}
+
+.about-left-containt {
+  position: absolute;
+  align-items: center;
+  background-color: #0b2c3d;
+  color: white;
+  width: 230px;
+  height: 150px;
+  text-align: center;
+
+}
+
+.about-left-top {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-left-top h1 {
+  font-size: 70px;
+  padding-top: 10px;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.about-left-top h2 {
+  font-size: 30px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 0;
+  text-align: justify;
+}
+
+.about-left-bottom {
+  font-size: 30px;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+}
